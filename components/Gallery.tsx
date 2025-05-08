@@ -7,13 +7,13 @@ import Image from "next/image";
 
 const Gallery = () => {
   return (
-    <section id="gallery" className="mt-48">
+    <section id="gallery" className="mt-22 xl:mt-48">
       <div className="container">
         <div className="flex justify-between">
           <h2>My Gallery</h2>
-          <div className="empty" />
+          <div className="empty !hidden lg:!block" />
         </div>
-        <p className="w-180">
+        <p className="w-full lg:w-180 mt-4 xl:mt-0">
           Step into my world—one frame at a time. This collection captures the
           beauty, emotion, and fleeting moments that inspire me most. From
           candid portraits to breathtaking landscapes, every image is a piece of
@@ -46,6 +46,7 @@ const Gallery = () => {
                 alt="gallery"
                 width={720}
                 height={1024}
+                className="w-full h-auto object-cover"
               />
             </article>
           </SwiperSlide>
@@ -56,6 +57,7 @@ const Gallery = () => {
                 alt="gallery"
                 width={720}
                 height={1024}
+                className="w-full h-full object-cover"
               />
             </article>
           </SwiperSlide>
