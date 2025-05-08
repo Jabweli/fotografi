@@ -2,6 +2,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import { FaTwitter, FaYoutube } from "react-icons/fa6";
+import { AiFillInstagram } from "react-icons/ai";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -55,21 +57,21 @@ const Navbar = () => {
             className="w-8 h-8 grid place-items-center rounded-lg linear-bg-1"
             target="_blank"
           >
-            in
+            <AiFillInstagram className="text-bg-1"/>
           </Link>
           <Link
             href="https://instagram.com"
             className="w-8 h-8 grid place-items-center rounded-lg linear-bg-1"
             target="_blank"
           >
-            tw
+            <FaTwitter className="text-bg-1"/>
           </Link>
           <Link
             href="https://instagram.com"
             className="w-8 h-8 grid place-items-center rounded-lg linear-bg-1"
             target="_blank"
           >
-            fb
+            <FaYoutube className="text-bg-1"/>
           </Link>
         </div>
         <button className="hidden" id="nav__toggle-open">

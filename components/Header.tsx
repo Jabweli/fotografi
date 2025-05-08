@@ -16,6 +16,7 @@ const Header = () => {
                 alt="header image"
                 width={648}
                 height={972}
+                priority
               />
             </div>
             <div className="w-112 h-112 absolute top-24 left-24 overflow-hidden transition group-hover:opacity-0">
@@ -24,6 +25,8 @@ const Header = () => {
                 alt="header image"
                 width={648}
                 height={972}
+                priority
+                className="w-full"
               />
             </div>
           </div>

@@ -27,6 +27,14 @@
   --container-width-lg: 88%;
   --container-width-md: 92%;
   --transition: all 400ms ease;
+
+  --animate-spinText: spinText 30s linear infinite;
+
+  @keyframes spinText {
+    to {
+      transform: rotate(360deg);
+    }
+  }
 }
 
 html {
@@ -141,3 +149,14 @@ h2 {
   right: 6%;
   bottom: -3rem;
 }
+
+.header_btn:hover {
+  box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.3);
+  transform: translateY(-1rem);
+  color: var(--color-bg-1);
+}
+
+/* .contact_btn p span {
+  position: absolute;
+  transform-origin: 0.3rem 5rem;
+} */
