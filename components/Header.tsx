@@ -41,7 +41,7 @@ const Header = () => {
               provident?
             </p>
             <Link href="mailto:stanlaus645@gmail.com" className="md:hidden">
-              Let's Talk
+              Let&apos;s Talk
             </Link>
           </div>
         </div>
