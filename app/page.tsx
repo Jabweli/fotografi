@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Gallery from "@/components/Gallery";
 import Header from "@/components/Header";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <Header />
       <About />
+      <Gallery />
     </>
   );
 }

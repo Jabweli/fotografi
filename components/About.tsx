@@ -20,7 +20,7 @@ const About = () => {
               alt="about diana ayi"
               width={752}
               height={912}
-              priority
+              loading="lazy"
               className="w-fullddd"
             />
           </div>
@@ -30,13 +30,13 @@ const About = () => {
               alt="about diana ayi"
               width={752}
               height={912}
-              priority
+              loading="lazy"
             />
           </div>
         </div>
 
         <div className="ml-16">
-          <div className="empty header__empty"></div>
+          <div className="empty header__empty" />
           <div className="flex flex-col gap-4 text-[15px]">
             <p>
               Hi, I&apos;m Diana Ayi—a visual storyteller with a passion for

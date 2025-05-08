@@ -6,7 +6,7 @@ import ContactBtn from "./ContactBtn";
 const Header = () => {
   return (
     <>
-      <header className="w-full h-[100vh] relative top-0 overflow-hidden linear-bg-2">
+      <header id="home" className="w-full h-[100vh] relative top-0 overflow-hidden linear-bg-2">
         <div className="container header">
           <div className="group cursor-pointer">
             <div className="w-64 h-88 bg-bg-4 absolute" />

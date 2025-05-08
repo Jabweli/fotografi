@@ -38,7 +38,7 @@ const Navbar = () => {
           />
         </Link>
         <div className="flex items-center gap-16">
-          <Link href="#" className="hover:text-primary transition">
+          <Link href="#home" className="hover:text-primary transition">
             Home
           </Link>
           <Link href="#about" className="hover:text-primary transition">
