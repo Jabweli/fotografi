@@ -286,7 +286,6 @@ h2 {
 
   .swiper-slide {
     height: max-content;
-    background: red;
     max-height: fit-content;
   }
 }
