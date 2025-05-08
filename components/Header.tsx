@@ -10,7 +10,7 @@ const Header = () => {
         <div className="container header">
           <div className="group cursor-pointer">
             <div className="w-64 h-88 bg-bg-4 absolute" />
-            <div className="relative top-4 left-4 saturate-0 brightness-[50%] transition group-hover:saturate-100 group-hover:brightness-100 group-hover:top-0 group-hover:left-0 group-hover:border-[16px] group-hover:border-bg-4">
+            <div className="w-112 relative top-4 left-4 saturate-0 brightness-[50%] transition group-hover:saturate-100 group-hover:brightness-100 group-hover:top-0 group-hover:left-0 group-hover:border-[16px] group-hover:border-bg-4 group-hover:w-full">
               <Image
                 src="/images/header.jpg"
                 alt="header image"
@@ -37,11 +37,9 @@ const Header = () => {
                 #Best Travel Photographer 2025
               </span>
             </div>
-            <h1 className="!text-[50px]">See The Beauty Of The World Through My Lense</h1>
+            <h1 className="!text-[52px] 2xl:!text-[70px]">See The Beauty Of The World Through My Lense</h1>
             <p className="w-[85%] mt-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-              dolorum repellat hic optio facilis eveniet non ducimus, alias, voluptatibus
-              provident?
+            Every frame tells a story—of light, emotion, and the fleeting moments that often go unnoticed. Let me show you the world as I see it—raw, real, and breathtaking.
             </p>
             <Link href="mailto:stanlaus645@gmail.com" className="md:hidden">
               Let&apos;s Talk
@@ -49,7 +47,7 @@ const Header = () => {
           </div>
         </div>
       </header>
-      <div className="header_frames absolute top-[88vh] right-176 transition">
+      <div className="header_frames absolute top-[88vh] right-176 2xl:right-212 2xl:top-[80vh] transition">
         <div className="header_frame w-52 border-[0.4rem] border-bg-3 absolute">
           <Image
             src="/images/frame1.jpg"
