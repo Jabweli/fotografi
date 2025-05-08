@@ -11,7 +11,7 @@ const Gallery = () => {
       <div className="container">
         <div className="flex justify-between">
           <h2>My Gallery</h2>
-          <div className="empty header__empty" />
+          <div className="empty" />
         </div>
         <p className="w-180">
           Step into my world—one frame at a time. This collection captures the

@@ -207,3 +207,18 @@ h2 {
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
   opacity: 1;
 }
+
+
+/* exhibition section */
+.ex_article img {
+  filter: saturate(0);
+  transition: var(--transition);
+}
+
+.ex_article:hover {
+  box-shadow: 0 4rem 4rem rgba(0, 0, 0, 0.5);
+}
+
+.ex_article:hover img {
+  filter: saturate(1);
+}
